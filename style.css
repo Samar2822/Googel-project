@@ -1,0 +1,62 @@
+
+/* reset */
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+width: 100%;
+height: auto;
+min-height: 200px;
+
+/*border: 1px solid red; */
+}
+header{
+height: auto;
+text-align: center;
+}
+header img{
+    width: 30%;
+}
+#search-section{
+    background-color: lightgray;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#search-input {
+    width: 250px;
+}
+
+.search-button{
+    border: 1px solid blue;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#info-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+  
+}
+
+#Info-Section-Special{
+    width:39%;
+    background-color: lightblue;
+    
+}
+#Info-Section-Help{
+    width:20%;
+    background-color: rgb(86, 164, 190);
+}
+#Info-Section-get-googel{
+    width:39%;
+    background-color:rgb(30, 75, 90);
+}
+footer{
+    text-align: center;
+}
+
+
+
